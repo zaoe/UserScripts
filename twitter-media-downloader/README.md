@@ -1,3 +1,17 @@
+## zaoe fork：Twitter 媒体下载 (兼容IDM)
+
+此 fork 在普通版基础上整合了避免 IDM 接管的下载方式，保留引用推文选择、原有文件名模板和 ZIP 功能。
+
+[安装此 fork 的脚本](https://raw.githubusercontent.com/zaoe/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js)
+
+此脚本命名为「Twitter 媒体下载 (兼容IDM)」，与原版名称不同，可以作为独立脚本安装，保留原版查看上游更新。兼容版更新地址指向此 fork。下载时建议只启用兼容版，避免重复按钮。独立安装不会自动继承原版的命名设置和下载历史；需要时可通过脚本管理器备份、迁移数据。
+
+下载由浏览器保存，IDM 无需接管这些媒体。Chromium 浏览器的完成标记表示已交给浏览器保存，无法检测用户取消或磁盘写入完成。文件内容会先读入浏览器内存。Firefox 使用 GM_download 保存 Blob URL。
+
+整合思路参考：[Twitter/X Media Downloader (IDM Compatible)](https://greasyfork.org/scripts/578809-twitter-x-media-downloader-idm-compatible)。
+
+---
+
 <!--NAVIGATION-->
 <div align="right">
     <h6>

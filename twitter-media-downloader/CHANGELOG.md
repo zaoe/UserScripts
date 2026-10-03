@@ -1,5 +1,15 @@
 # **🛠️Twitter 媒体下载 更新日志**
 
+### **📅 2026.10.3.1（zaoe fork）**
+
+- **修复**：单文件和多文件分别下载改为先获取媒体内容，再通过 Blob URL 保存，避免 IDM 接管后丢失自定义文件名。
+- **保留**：普通版引用推文选择、原有命名规则、ZIP 打包及 Firefox 保存处理。
+- **修复**：Markdown 历史导出的特殊字符变量缺失；批量失败后恢复任务计数，全部文件成功后才标记推文完成。
+- **更新**：脚本命名为「Twitter 媒体下载 (兼容IDM)」，可保留原版查看上游更新；兼容版更新与下载地址指向 zaoe/UserScripts。
+- **参考**：[IDM 兼容版](https://greasyfork.org/scripts/578809-twitter-x-media-downloader-idm-compatible)。
+
+---
+
 ### **📅 2025.04.28.1719**
 
 **新增**: 导出下载历史为 `MarkDown`,代码来自 GreasyFork 用户[SteveSun](https://greasyfork.org/users/1462808)发布于[#296680](https://greasyfork.org/scripts/495368/discussions/296680#comment-589869)<br>

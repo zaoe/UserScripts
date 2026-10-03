@@ -1,117 +1,5 @@
 // ==UserScript==
-// @name               Twitter/X Media Downloader
-// @name:af            Twitter Media Download (2025.12.02 vas)
-// @name:am            ትዊተር ሚዲያ አውርድ (2025.12.02 ተጠግኗል)
-// @name:ar            تنزيل Media Twitter (2025.12.02 ثابت)
-// @name:az            Twitter Media Yükləmə (2025.12.02 Sabit)
-// @name:be            Загрузка Twitter Media (2025.12.02 Выпраўлена)
-// @name:bem           Ukukongama kwa pa muulu (2025.12.02 ukwashintililwapo)
-// @name:bg            Изтегляне на медии в Twitter (2025.12.02 Фиксиран)
-// @name:bn            টুইটার মিডিয়া ডাউনলোড (2025.12.02 স্থির)
-// @name:bo            Twitter Media Download (2025.12.02 གཏན་འཁེལ་བྱུང་བ།)
-// @name:bs            Preuzimanje Twitter Media (2025.12.02 fiksnim)
-// @name:ca            Descàrrega de Twitter Media (2025.12.02 S’ha corregit)
-// @name:ceb           Download sa Twitter Media (2025.12.02 naayos)
-// @name:ckb           داگرتنی میدیای تویتەر (2025.12.02 چاککراوە)
-// @name:cs            Stahování médií Twitter (2025.12.02 Opraveno)
-// @name:cy            Lawrlwytho Cyfryngau Twitter (2025.12.02 sefydlog)
-// @name:da            Twitter Media Download (2025.12.02 Fixed)
-// @name:de            Download von Twitter Media (2025.12.02 behoben)
-// @name:dv            ޓްވިޓަރ މީޑިއާ ޑައުންލޯޑް (2025.12.02 ފިކްސްޑް)
-// @name:dz            Twitter Medownload (2025.12.02 བདེ་སྒྲིག་)
-// @name:el            Download Media Twitter (2025.12.02 Διορθώθηκε)
-// @name:en            Twitter Media Downloader (2025.12.02 Fixed)
-// @name:en-GB         Twitter Media Downloader (2025.12.02 Fixed)
-// @name:eo            Elŝuti Twitter Media (2025.12.02 Fiksita)
-// @name:es            Descarga de medios de Twitter (2025.12.02 solucionado)
-// @name:et            Twitteri meedia allalaadimine (2025.12.02 fikseeritud)
-// @name:eu            Twitter Media download (2025.12.02 Konpondu)
-// @name:fa            دانلود رسانه توییتر (2025.12.02 ثابت)
-// @name:fi            Twitter Media Download (2025.12.02 Kiinteä)
-// @name:fo            Twitter Media Download (2025.12.02 Fast)
-// @name:fr            Twitter Media Download (2025.12.02 Correction)
-// @name:fr-CA         Twitter Media Download (2025.12.02 Correction)
-// @name:gd            Luchdaich sìos meadhanan Twitter (2025.12.02 stèidhichte)
-// @name:gl            Twitter Media Download (2025.12.02 Fixado)
-// @name:gu            ટ્વિટર મીડિયા ડાઉનલોડ (2025.12.02 સ્થિર)
-// @name:haw           Kāleʻa Twitter (2025.12.02 paʻa)
-// @name:he            הורדת מדיה בטוויטר (2025.12.02 קבועה)
-// @name:hi            ट्विटर मीडिया डाउनलोड (2025.12.02 फिक्स्ड)
-// @name:hr            Twitter Media preuzimanje (2025.12.02 fiksno)
-// @name:ht            Twitter Media Download (2025.12.02 fiks)
-// @name:hu            A Twitter Media letöltése (2025.12.02 rögzített)
-// @name:hy            Twitter Media Download (2025.12.02 ֆիքսված)
-// @name:id            Unduh Media Twitter (2025.12.02 diperbaiki)
-// @name:is            Twitter Media Download (2025.12.02 Fast)
-// @name:it            Download di Twitter Media (2025.12.02 FISSO)
-// @name:ja            Twitterメディアダウンロード（2025.12.02修正）
-// @name:ka            Twitter Media Download (2025.12.02 დაფიქსირდა)
-// @name:kk            Twitter Media Download (2025.12.02 тіркелген)
-// @name:km            ការទាញយកប្រព័ន្ធផ្សព្វផ្សាយ Twitter (2025.12.02 ថេរ)
-// @name:kn            ಟ್ವಿಟರ್ ಮಾಧ್ಯಮ ಡೌನ್‌ಲೋಡ್ (2025.12.02 ಸ್ಥಿರ)
-// @name:ko            트위터 미디어 다운로드 (2025.12.02 고정)
-// @name:ku            Twitter Media Download (2025.12.02 Fixed)
-// @name:ky            Twitter Media Download (2025.12.02 Fixed)
-// @name:la            Twitter Media Download (2025.12.02 Fixarum)
-// @name:lb            Twitter Medien eroflueden (2025.12.02 Fixéiert)
-// @name:lo            Twitter media ດາວໂຫລດ (2025.12.02 ຄົງທີ່)
-// @name:lt            „Twitter Media“ atsisiuntimas (fiksuota 2025.12.02)
-// @name:lv            Twitter multivides lejupielāde (2025.12.02 fiksēts)
-// @name:mg            Twitter Media Download (2025.12.02 Namboarina)
-// @name:mi            Twitter Media Tango (2025.12.02 Kua whakaritea)
-// @name:mk            Преземање на медиуми на Твитер (фиксно 2025.12.02)
-// @name:ml            ട്വിറ്റർ മീഡിയ ഡൗൺലോഡ് (2025.12.02 സ്ഥിരമായി)
-// @name:mn            Twitter Media татаж авах (2025.12.02 тогтмол)
-// @name:ms            Twitter Media Muat turun (2025.12.02 Tetap)
-// @name:mt            Twitter Media Download (2025.12.02 iffissat)
-// @name:my            Twitter Media Download (2025.12.02)
-// @name:ne            ट्विटर मिडिया डाउनलोड (20255.04.04.28 स्थिर)
-// @name:nl            Twitter Media Download (2025.12.02 opgelost)
-// @name:no            Twitter Media nedlasting (2025.12.02 Fast)
-// @name:ny            Twitter Media Download (2025.12.02 Okhazikika)
-// @name:pa            ਟਵਿੱਟਰ ਮੀਡੀਆ ਡਾ Download ਨਲੋਡ (2025.12.02 ਸਥਿਰ)
-// @name:pap           Medida di Twitter Descarga (2025.12.02 Fiho)
-// @name:pl            Pobieranie mediów na Twitterze (ustalone 2025.12.02)
-// @name:ps            د ټویټر میډیا ډاونلوډ (2025.04.04.28 ټاکل شوی)
-// @name:pt            Download de mídia do Twitter (2025.12.02 corrigido)
-// @name:pt-BR         Download de mídia do Twitter (2025.12.02 corrigido)
-// @name:ro            Descărcare media Twitter (2025.12.02 Fixată)
-// @name:ru            Скачать Twitter Media (2025.12.02 Исправлена)
-// @name:rw            Twitter Gukuramo (2025.12.02 Byagenwe)
-// @name:sg            Twitter media Télécharger (2025.12.02 A leke ni)
-// @name:si            ට්විටර් මාධ්ය බාගත කිරීම (2025.12.02 ස්ථාවර)
-// @name:sk            Stiahnutie médií na Twitteri (2025.12.02 Opravené)
-// @name:sl            Prenos medijev na Twitterju (2025.12.02 Fixed)
-// @name:sm            Twitter Media Download (2025.12.02 Tumau)
-// @name:sn            Twitter Media Download (2025.12.02 Yakagadziriswa)
-// @name:so            Twitter Media Media Download (2025.12.02 go’an)
-// @name:sr            Преузимање Твиттер Медиа (2025.12.02 фиксно)
-// @name:sv            Twitter media nedladdning (2025.12.02 fast)
-// @name:sw            Upakuaji wa media ya Twitter (2025.12.02 fasta)
-// @name:ta            ட்விட்டர் மீடியா பதிவிறக்கம் (2025.12.02 சரி செய்யப்பட்டது)
-// @name:te            ట్విట్టర్ మీడియా డౌన్‌లోడ్ (2025.12.02 పరిష్కరించబడింది)
-// @name:tg            Twitter Media Download (2025.04.04.28 Стратегия)
-// @name:th            ดาวน์โหลดสื่อ Twitter (2025.12.02 แก้ไข)
-// @name:ti            ትዊተር ሚድያ ዳውንሎድ (2025.12.02 ጽኑዕ)
-// @name:tk            Twitter Media göçürip almak (2025.12.02 kesgitlenen)
-// @name:tn            Bobegakgang jwa Twitter Latalo (2025.12.02 E Tlhomamisitswe)
-// @name:to            Twitter Mītia Download (2025.12.02 Tuʻunga)
-// @name:tpi           Twitter Midia Daonlodem (2025.12.02 Oli fiksimap)
-// @name:tr            Twitter Medya İndir (2025.12.02 Sabit)
-// @name:uk            Завантажити медіа Twitter (2025.12.02 Виправлено)
-// @name:ur            ٹویٹر میڈیا ڈاؤن لوڈ (2025.12.02 فکسڈ)
-// @name:uz            Twitter Media Download (2025.12.02 belgilangan)
-// @name:vi            Tải xuống phương tiện truyền thông Twitter (2025.04,28 đã sửa)
-// @name:xh            I-Twitter Demiedia Eendaba (2025.12.02 ilungisiwe)
-// @name:yi            טוויטטער מעדיע אראפקאפיע (2025.12.02 פאַרפעסטיקט)
-// @name:zh            Twitter 媒体下载 (2025.12.02 修复)
-// @name:zh-CN         Twitter 媒体下载 (2025.12.02 修复)
-// @name:zh-HK         Twitter 媒體下載 (2025.12.02 修復)
-// @name:zh-MO         Twitter 媒體下載 (2025.12.02 修復)
-// @name:zh-MY         Twitter 媒体下载 (2025.12.02 修复)
-// @name:zh-SG         Twitter 媒体下载 (2025.12.02 修复)
-// @name:zh-TW         Twitter 媒體下載 (2025.12.02 修復)
-// @name:zu            I-Twitter Media Download (2025.12.02 Ilungisiwe)
+// @name               Twitter 媒体下载 (兼容IDM)
 // @description        Download videos/pictures with one click | Automatically package them into a ZIP file for batch download
 // @description:af     Laai video’s/prente met een klik af, en ondersteun outomatiese verpakking as ’n zip -lêer om af te laai wanneer bondel aflaai. Ondersteun nuwe API -koppelvlak
 // @description:am     ቪዲዮዎችን / ስዕሎችን በአንድ ጠቅታ ያውርዱ እና የቡድን ማውረድ በሚረዱበት ጊዜ ለማውረድ ራስ-ሰር ማሸጊያዎችን እንደ ዚፕ ፋይል ይደግፉ. አዲስ የኤፒአይ በይነገጽን ይደግፉ
@@ -247,12 +135,12 @@
 // @grant              GM_download
 // @match              https://x.com/*
 // @match              https://twitter.com/*
-// @version            2026.4.2.2
+// @version            2026.10.3.1
 // @created            2025-03-11 08:11:29
-// @modified           2025-12-02 14:33:28
+// @modified           2026-10-03
 // @require            https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
-// @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
-// @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
+// @downloadURL        https://raw.githubusercontent.com/zaoe/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
+// @updateURL          https://raw.githubusercontent.com/zaoe/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
 // ==/UserScript==
 
 /**
@@ -270,6 +158,8 @@
 
 //! 修复代码来自:goemon2017:https://greasyfork.org/scripts/423001/discussions/296626#comment-589742
 
+// IDM download compatibility adapted from:
+// https://greasyfork.org/scripts/578809-twitter-x-media-downloader-idm-compatible
 /* jshint esversion: 8 */
 const filename = 'twitter_{user-name}(@{user-id})_{date-time}_{status-id}_{file-type}'
 const TMD = (function () {
@@ -319,6 +209,7 @@ const TMD = (function () {
                 || json.quoted_status_result?.result?.legacy
                 || json.legacy
             let user = json.core.user_results.result.legacy
+            const invalid_chars = { '\\': '＼', '\/': '／', '\|': '｜', '<': '＜', '>': '＞', ':': '：', '*': '＊', '?': '？', '"': '＂', '\u200b': '', '\u200c': '', '\u200d': '', '\u2060': '', '\ufeff': '', '🔞': '' };
             let user_name = user.name.replace(/([\\/|*?:"\u200b-\u200d\u2060\ufeff]|🔞)/g, v => invalid_chars[v])
             let full_text = tweet.full_text.split('\n').join(' ').replace(/\s*https:\/\/t\.co\/\w+/g, '').replace(/[\\/|<>*?:"\u200b-\u200d\u2060\ufeff]/g, v => invalid_chars[v])
             return `[${user_name} (@${user.screen_name})](https://x.com/i/web/status/${tweet_id})\n>  ${full_text}\n`
@@ -608,139 +499,97 @@ const TMD = (function () {
         }, downloader: (function () {
             let tasks = [], thread = 0, failed = 0, notifier, has_failed = false
             return {
-                add: function (taskList, btn, save_history, is_exist, status_id, enable_packaging) {
-                    if (taskList.length > 1) {
-                        tasks.push(...taskList)
-                        this.update()
-                        if (enable_packaging) {
-                            let zip = new JSZip()
-                            let completedCount = 0
-                            taskList.forEach((task, i) => {
-                                thread++
-                                this.update()
-                                fetch(task.url)
-                                    .then(response => {
-                                        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                                        return response.arrayBuffer()   // ← 关键修改
-                                    })
-                                    .then(buffer => {
-                                        const uint8Array = new Uint8Array(buffer)
-                                        zip.file(task.name, uint8Array);
-                                        tasks = tasks.filter(t => t.url !== task.url)
-                                        thread--
-                                        this.update()
-                                        completedCount++
-                                        if (completedCount === taskList.length) {
-                                            zip.generateAsync({ type: 'blob' }).then(content => {
-                                                const zipBlob = new Blob([content], { type: 'application/zip' })
-                                                const zipUrl = URL.createObjectURL(zipBlob)
-                                                const zipFileName = `${taskList[0].name}.zip`
-
-                                                // 检测是否为 Firefox
-                                                const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1
-                                                
-                                                // Firefox 使用 GM_download
-                                                if (isFirefox) {
-                                                    GM_download({
-                                                        url: zipUrl,
-                                                        name: zipFileName,
-                                                        onload: () => {
-                                                            URL.revokeObjectURL(zipUrl)
-                                                            this.status(btn, 'completed', lang.completed)
-                                                            if (save_history && !is_exist) {
-                                                                history.push(status_id)
-                                                                this.storage(status_id)
-                                                            }
-                                                        },
-                                                        onerror: (err) => {
-                                                            URL.revokeObjectURL(zipUrl)
-                                                            this.status(btn, 'failed', err.details?.current || 'ZIP download failed')
-                                                        }
-                                                    })
-                                                } else {
-                                                    // Chrome / Edge / Opera 等使用传统 a.click 方式
-                                                    const a = document.createElement('a')
-                                                    a.href = zipUrl
-                                                    a.download = zipFileName
-                                                    document.body.appendChild(a)
-                                                    a.click()
-                                                    // 延迟移除，确保下载开始
-                                                    setTimeout(() => {
-                                                        document.body.removeChild(a)
-                                                        URL.revokeObjectURL(zipUrl)
-                                                    }, 100)
-                                                    this.status(btn, 'completed', lang.completed)
-                                                    if (save_history && !is_exist) {
-                                                        history.push(status_id)
-                                                        this.storage(status_id)
-                                                    }
-                                                }
-                                            }).catch(err => {
-                                                this.status(btn, 'failed', err.message)
-                                            })
-                                        }
-                                    })
-                                    .catch(error => {
-                                        failed++
-                                        tasks = tasks.filter(t => t.url !== task.url)
-                                        this.status(btn, 'failed', error.message)
-                                        this.update()
-                                    })
-                            })
-                        } else {
-                            taskList.forEach((task) => {
-                                thread++
-                                this.update()
-
+                // Keep HTTP media requests out of GM_download so IDM cannot replace names.
+                saveBlob: function (blob, filename) {
+                    const blobUrl = URL.createObjectURL(blob)
+                    const isFirefox = navigator.userAgent.toLowerCase().includes('firefox')
+                    return new Promise((resolve, reject) => {
+                        if (isFirefox) {
+                            try {
                                 GM_download({
-                                    url: task.url,
-                                    name: task.name,
+                                    url: blobUrl,
+                                    name: filename,
                                     onload: () => {
-                                        thread--
-                                        tasks = tasks.filter(t => t.url !== task.url)
-                                        this.status(btn, 'completed', lang.completed)
-                                        if (save_history && !is_exist) {
-                                            history.push(status_id)
-                                            this.storage(status_id)
-                                        }
-                                        this.update()
+                                        URL.revokeObjectURL(blobUrl)
+                                        resolve()
                                     },
-                                    onerror: result => {
-                                        thread--
-                                        failed++
-                                        tasks = tasks.filter(t => t.url !== task.url)
-                                        this.status(btn, 'failed', result.details.current)
-                                        this.update()
+                                    onerror: error => {
+                                        URL.revokeObjectURL(blobUrl)
+                                        reject(new Error(error?.details?.current || error?.error || 'Browser download failed'))
                                     }
                                 })
-                            })
+                            } catch (error) {
+                                URL.revokeObjectURL(blobUrl)
+                                reject(error)
+                            }
+                            return
                         }
-                    } else {
-                        tasks.push(taskList[0])
+                        const anchor = document.createElement('a')
+                        try {
+                            anchor.href = blobUrl
+                            anchor.download = filename
+                            anchor.style.display = 'none'
+                            document.body.appendChild(anchor)
+                            anchor.click()
+                            // Give the browser time to consume the object URL.
+                            setTimeout(() => anchor.remove(), 1000)
+                            setTimeout(() => URL.revokeObjectURL(blobUrl), 60000)
+                            // Chromium provides no completion callback for a.download.
+                            resolve()
+                        } catch (error) {
+                            anchor.remove()
+                            URL.revokeObjectURL(blobUrl)
+                            reject(error)
+                        }
+                    })
+                },
+                add: async function (taskList, btn, save_history, is_exist, status_id, enable_packaging) {
+                    if (!taskList.length) return
+                    const packaging = enable_packaging && taskList.length > 1
+                    tasks.push(...taskList)
+                    this.update()
+                    const results = await Promise.allSettled(taskList.map(async task => {
                         thread++
                         this.update()
-                        GM_download({
-                            url: taskList[0].url,
-                            name: taskList[0].name,
-                            onload: () => {
-                                thread--
-                                tasks = tasks.filter(t => t.url !== taskList[0].url)
-                                this.status(btn, 'completed', lang.completed)
-
-                                if (save_history && !is_exist) {
-                                    history.push(status_id)
-                                    this.storage(status_id)
-                                }
-                                this.update()
-                            },
-                            onerror: result => {
-                                thread--
-                                failed++
-                                tasks = tasks.filter(t => t.url !== taskList[0].url)
-                                this.status(btn, 'failed', result.details.current)
-                                this.update()
+                        try {
+                            const response = await fetch(task.url)
+                            if (!response.ok) throw new Error('HTTP ' + response.status)
+                            if (packaging) {
+                                return new Uint8Array(await response.arrayBuffer())
                             }
-                        })
+                            await this.saveBlob(await response.blob(), task.name)
+                        } catch (error) {
+                            failed++
+                            throw error
+                        } finally {
+                            thread--
+                            const taskIndex = tasks.indexOf(task)
+                            if (taskIndex >= 0) tasks.splice(taskIndex, 1)
+                            this.update()
+                        }
+                    }))
+                    const rejected = results.find(result => result.status === 'rejected')
+                    if (rejected) {
+                        this.status(btn, 'failed', rejected.reason?.message || 'Media download failed')
+                        return
+                    }
+                    try {
+                        if (packaging) {
+                            const zip = new JSZip()
+                            results.forEach((result, i) => zip.file(taskList[i].name, result.value))
+                            const content = await zip.generateAsync({ type: 'blob' })
+                            await this.saveBlob(content, taskList[0].name + '.zip')
+                        }
+                        this.status(btn, 'completed', lang.completed)
+                        if (save_history && !is_exist) {
+                            if (!history.includes(status_id)) history.push(status_id)
+                            await this.storage(status_id)
+                        }
+                    } catch (error) {
+                        failed++
+                        this.status(btn, 'failed', error?.message || 'Download failed')
+                    } finally {
+                        this.update()
                     }
                 },
                 status: function (btn, css, title, style) {
@@ -781,7 +630,7 @@ const TMD = (function () {
                         }
                     }
                     notifier.firstChild.innerText = thread
-                    notifier.firstChild.nextElementSibling.innerText = tasks.length - thread - failed
+                    notifier.firstChild.nextElementSibling.innerText = Math.max(0, tasks.length - thread)
                     if (failed > 0) notifier.lastChild.innerText = failed
                     if (thread > 0 || tasks.length > 0 || failed > 0) notifier.classList.add('running')
                     else notifier.classList.remove('running')
